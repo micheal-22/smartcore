@@ -23,11 +23,11 @@ const Services = () => {
   ];
 
   return (
-    <div style={{background:'#eceaea', padding:'20px 0'}}>
+    <div style={{background:'#f8f9fa', padding:'20px 0'}}>
         <section className="services-container">
         <div className="services-header">
             <div className="header-text">
-            <span className="subtitle">Our Services</span>
+            <span className="subtitles">Our Services</span>
             <h1>Services we provide to <br /><span>Elevate Your Business</span></h1>
             </div>
             <button className="see-all-btn">See all Services</button>

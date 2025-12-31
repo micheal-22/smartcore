@@ -1,25 +1,25 @@
-import logo from './logo.svg';
+import React, { useState, useEffect } from 'react';
+import { Menu, X, Code, Smartphone, Cloud, Database, ChevronRight, Mail, Phone, MapPin } from 'lucide-react';
 import './App.css';
+import Hero from './Components/Hero';
+import AboutSection from './Components/AboutSection';
+import Services from './Components/Services';
+import WorkProcess from './Components/WorkProcess';
+import WhyChooseUs from './Components/WhyChooseUs';
 
-function App() {
+export default function App() {
+  
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="website">
+     
+      <Hero/>
+      <AboutSection/>
+      <Services/>
+      <WorkProcess/>
+      <WhyChooseUs/>
+
     </div>
   );
 }
-
-export default App;
